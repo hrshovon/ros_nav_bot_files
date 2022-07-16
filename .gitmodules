@@ -1,0 +1,3 @@
+[submodule "src/komurin_core/rplidar_ros"]
+	path = src/komurin_core/rplidar_ros
+	url = https://github.com/Slamtec/rplidar_ros.git
