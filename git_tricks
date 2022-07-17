@@ -1,0 +1,2 @@
+git submodule init
+ssh-agent sh -c "ssh-add -D; ssh-add ~/.ssh/id_rsa_2.pem; git submodule update src/komurin_core/mpu_6050_driver"
