@@ -24,4 +24,7 @@
     		<param name="port" value="/dev/ttyACM0"/>
     		<param name="baud" value="115200"/>
   	</node>
+	<!-- mpu6050 imu publisher  -->
+	<node name="imu_node" pkg="mpu_6050_driver" type="imu_node.py" respawn="true" respawn_delay="2" />
+	<node name="tf_broadcaster_imu" pkg="mpu_6050_driver" type="tf_broadcaster_imu.py" respawn="true" respawn_delay="2" />  	
 </launch>

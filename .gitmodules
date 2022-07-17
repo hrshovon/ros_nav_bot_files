@@ -4,3 +4,6 @@
 [submodule "src/hector_slam"]
 	path = src/hector_slam
 	url = https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
+[submodule "src/komurin_core/mpu_6050_driver"]
+	path = src/komurin_core/mpu_6050_driver
+	url = git@github.com:hrshovon/mpu_6050_driver_osu_modded.git
